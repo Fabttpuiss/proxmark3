@@ -1,5 +1,2 @@
-# .gitattributes
-# prevent binary files from CRLF handling, diff and merge:
-fpga/fpga.bit -crlf -diff
-*.bin -crlf -diff
-*.z -crlf -diff
+# Auto detect text files and perform LF normalization
+* text=auto
